@@ -1,0 +1,28 @@
+{
+  "name": "strapi-blog-backend",
+  "version": "1.0.0",
+  "description": "Strapi v4 backend for Blog app",
+  "private": true,
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "seed": "node ./scripts/seed.js"
+  },
+  "dependencies": {
+    "@strapi/plugin-i18n": "^4.25.0",
+    "@strapi/plugin-upload": "^4.25.0",
+    "@strapi/plugin-users-permissions": "^4.25.0",
+    "@strapi/strapi": "^4.25.0",
+    "better-sqlite3": "^9.0.0",
+    "dotenv": "^16.4.5",
+    "pg": "^8.16.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^5.3.4",
+    "styled-components": "^5.3.11"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=22.x"
+  }
+}
